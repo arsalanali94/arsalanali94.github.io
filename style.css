@@ -1,0 +1,39 @@
+.btn-danger {
+	background-color: pink;
+}
+
+.btn-danger:hover {
+	background-color: orange;
+}
+
+.col {
+	background-color: grey;
+	border: 2px solid black;
+}
+
+h1{
+	font-family: arial;
+	font-size: 2em;
+	background: lightgrey;
+	border-bottom: 2px solid green;
+	border-right: 2px solid green;
+	width: 400px;
+	text-align: center;
+	box-shadow: 5px 5px 5px grey;
+} 
+
+.img-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.otherimg img {
+	width: 200px
+	height: 200px;
+	transition: all 1s;
+}
+
+.otherimg img:hover {
+	transform: scale(1.5);
+}
